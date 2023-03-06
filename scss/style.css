@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  /* Container for image text */
+}
+.container .mySlides {
+  display: none;
+}
+.container .mySlides .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.container .prev,
+.container .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+}
+.container .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.container .prev:hover,
+.container .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.container .caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+.container .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container .column {
+  float: left;
+  width: 16.66%;
+}
+.container .demo-cursor {
+  opacity: 0.6;
+}
+.container .active,
+.container .demo-cursor:hover {
+  opacity: 1;
+}/*# sourceMappingURL=style.css.map */
